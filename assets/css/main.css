@@ -19,7 +19,6 @@ body{
 
 span{
     display: flex;
-    justify-items: row;
 }
 
 input{
@@ -40,8 +39,10 @@ button{
     height: 50px;
 }
 p.task{
-    padding-left: 10px;
-    margin: 1px 0;
+    margin: 0.1px 0;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
 }
 
 .msg{
@@ -65,11 +66,8 @@ p.task{
     padding-left: 20px;
 }
 
-.list-group-item{
-    padding-left: 20px;
-}
 
 .date{
     text-align: end;
-    padding: -5px;
+    
 }
